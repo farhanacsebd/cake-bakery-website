@@ -4,12 +4,75 @@
     box-sizing: border-box;
 }
 
+/* scrolling css */
+::-webkit-scrollbar{
+    width:10px;
+  }
+  ::-webkit-scrollbar-track{
+    background:#f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:#d70371;
+  }
+  ::selection{
+    background:rgb(0,123,255,0.3);
+  }
+
+/* navbar section start */
+.content{
+    max-width: 1250px;
+    margin:auto;
+    padding:0 30px;
+  }
+  .navbar{
+    position:fixed;
+    width:100%;
+    z-index:2;
+    padding:25px 0;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky{
+    background:rgb(254, 204, 228);
+    padding:10px 0;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  }
+  .navbar .content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .navbar .logo a{
+    color: #000;;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .navbar .menu-list{
+    display: inline-flex;
+  }
+  .menu-list li{
+    list-style: none;
+  }
+  .menu-list li a{
+    color:#000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+    transition:all 0.3s ease;
+  }
+  .menu-list li a:hover{
+    color:#fe0072;
+  }
+
+/* hero section start */
 .bg-img{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+    background: url('./images/bg.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 124vh;
     width: 100%;
     opacity: 0.65;
 }
@@ -18,23 +81,105 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .poster{
     font-family: "Poppins", cursive;
     font-size: 80px;
+    color: orange;
 }
 
 .posterName{
-    color: rgb(3, 255, 230);
+    color: rgb(2, 224, 201);
+    font-family: cursive;
+
 }
 
 .posterName2{
-    color: rgb(255, 0, 43);
+    color: rgb(255, 0, 123);
 }
+
+.heroSite .field h3{
+    color: rgb(0, 0, 255);
+    font-size: 2rem;
+}
+
 /* h1{
     font-family: "Great Vibes", cursive;
 }
 h2{
     font-family: "Poppins", cursive;
 } */
+
+
+.icon{
+    color:#fff;
+    font-size:20px;
+    cursor: pointer;
+    display:none;
+  }
+  .menu-list .cancel-btn{
+    position:absolute;
+    right:30px;
+    top:20px;
+  }
+  @media (max-width:1230px){
+    .content{
+      padding:0 60px;
+    }
+  }
+  @media (max-width:1100px){
+    .content{
+      padding:0 40px;
+    }
+  }
+  @media (max-width:900px){
+    .content{
+      padding:0 30px;
+    }
+  }
+  @media (max-width:868px){
+    .icon{
+      display:block;
+    }
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon.hide{
+      display:none;
+    }
+    .navbar .menu-list{
+      position:fixed;
+      height:100vh;
+      width:100%;
+      max-width: 400px;
+      left:-100%;
+      top:0px;
+      display:block;
+      padding:40px 0;
+      text-align: center;
+      background:#222222;
+      transition:all 0.3s ease;
+    }
+    .navbar.show .menu-list{
+      left:0%;
+    }
+    .navbar .menu-list li{
+      margin-top:45px;
+    }
+    .navbar .menu-list li a{
+      font-size: 23px;
+      margin-left:-100%;
+      transition:0.6s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .navbar.show .menu-list li a{
+      margin-left:0; 
+    }
+  }
+  @media (max-width:380px){
+    .navbar .logo a{
+      font-size: 27px;
+    }
+  }
