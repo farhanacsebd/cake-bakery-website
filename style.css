@@ -5,10 +5,36 @@
 }
 
 .bg-img{
-    background: url(./images/bg.jpg);
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
     width: 100%;
+    opacity: 0.65;
 }
+
+.heroSite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster{
+    font-family: "Poppins", cursive;
+    font-size: 80px;
+}
+
+.posterName{
+    color: rgb(3, 255, 230);
+}
+
+.posterName2{
+    color: rgb(255, 0, 43);
+}
+/* h1{
+    font-family: "Great Vibes", cursive;
+}
+h2{
+    font-family: "Poppins", cursive;
+} */
