@@ -88,7 +88,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 124vh;
+    height: 120vh;
     width: 100%;
     opacity: 0.65;
 }
@@ -178,7 +178,45 @@
 /* .discount section end */
 
 /* limited sales start */
+.sales{
+  background-image:url(./images/BG2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 65vh;
+  margin-top: 20vh;
+}
 
+.sale{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.discount h3{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+.discount h2{
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+}
+
+.discount #btnOrder{
+  width: 110px;
+  height: 38px;
+  background-color: #ff1f69;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
 /* limited sales end */
 
 /* h1{
@@ -191,7 +229,7 @@ h2{
 
 @media (max-width:1269px){
   .bg-img{
-    height: 145vh;
+    height: 140vh;
   }
   .poster{
     font-size: 60px;
@@ -207,6 +245,9 @@ h2{
     .content{
       padding:0 60px;
     }
+    .bg-img{
+      height: 120vh;
+    }
   }
   @media (max-width:1100px){
     .content{
@@ -221,7 +262,9 @@ h2{
     .img-field img{
       height: 320px !important; 
     }
-   
+    .sales{
+      height: 75vh;
+    }
   }
   @media (max-width:900px){
     .content{
@@ -292,6 +335,9 @@ h2{
     .img-field img{
       height: 250px !important; 
     }
+    .sales{
+      height: 100vh;
+    }
   }
   
   @media (max-width:380px){
@@ -299,6 +345,9 @@ h2{
       font-size: 27px;
     }
     .bg-img{
+      height: 120vh;
+    }
+    .sales{
       height: 120vh;
     }
   }
