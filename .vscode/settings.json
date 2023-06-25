@@ -1,0 +1,16 @@
+/* {
+    "editor.fontSize": 17,
+    "editor.fontWeight": "normal"
+} */
+
+{
+    "terminal.integrated.fontSize": 17,
+    "editor.fontSize": 17,
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+    "terminal.foreground": "#00ff2a",
+    "terminalCursor.foreground": "#ff5e00"
+    },
+    "editor.fontWeight": "normal",
+} 
