@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
 }
 
 /* scrolling css */
@@ -83,13 +84,18 @@
 
 /* hero section start */
 .bg-img{
-    background: url('./images/bg.PNG');
+    background: rgb(255, 194, 223) url('./images/bg.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 124vh;
     width: 100%;
     opacity: 0.65;
+}
+
+.bg-img svg{
+  position: absolute;
+  bottom: -24%;
 }
 
 .heroSite{
@@ -128,8 +134,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 80px;
-  margin-bottom: 70px;
 }
 
 .photo-frame{
@@ -156,7 +160,6 @@
 
 .photo-frame:hover .photo-detail{
   display: block;
-  /* background-color: rgba(218, 165, 32, 0.178) */
 }
 
 .photo-detail h3{
@@ -278,7 +281,7 @@ h2{
       margin-left:0; 
     }
     .bg-img{
-      height: 105vh;
+      height: 120vh;
     }
     .poster{
       font-size: 35px;
