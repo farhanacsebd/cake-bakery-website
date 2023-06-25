@@ -410,6 +410,63 @@ img {
   background-color: #e1306c;
 }
 /* chef section Ends */
+
+/* contact section starts */
+.heading{
+  margin-top: 25vh;
+}
+.heading h1{
+  font-size: 66px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+.heading h2{
+  font-size: 24px;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 13vh; 
+}
+
+.icons-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons{
+  background-color: rgb(238, 235, 235);
+  width: 280px;
+  height: 200px;
+  border: 2px solid #c8a97e;
+  border-radius: 10px;
+  margin: 10px 4px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.icons i{
+  height:4rem;
+  width:4rem;
+  line-height: 4rem;
+  font-size: 2.5rem;
+  background: #222;
+  color:#fff;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.icons h3{
+  color:#222;
+  font-size: 1.8rem;
+  padding:0.5rem 0;
+}
+
+.icons p{
+  color:#222;
+  font-size: 1.2rem;
+}
+/* contact section Ends */
 /* h1{
     font-family: "Great Vibes", cursive;
 }
