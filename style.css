@@ -804,7 +804,7 @@ h2{
   }
 
   .bg-img {
-    height: 115vh;
+    height: 120vh;
   }
 
   .sales {
@@ -821,3 +821,55 @@ h2{
     height :250px;
   }
 }
+
+
+/* ----------------START----------------------------------  */
+/* -------------------------------------------------- */
+/*------------- scroll buttom to top -------------- */
+
+.scrollTop {
+  position: fixed;
+  bottom: 40px;
+  right: 32px;
+  width: 40px;
+  height: 40px;
+  background: #fff url("images/picture.PNG");
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+
+.scrollTop.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*------------- scroll buttom to top -------------- */
+/* ----------------END----------------------------------  */
+/* -------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------- */
+/* ------------------------loading css start-------------------------- */
+/* -------------------------------------------------------------------- */
+
+#preloader{
+  background:#fff url(images/loader.gif) no-repeat center center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+}
+
+/* ------------------------------------------------------------------- */
+/* ------------------------loading css end-------------------------- */
+/* -------------------------------------------------------------------- */
