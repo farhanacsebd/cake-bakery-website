@@ -356,7 +356,7 @@ img {
   height: 200px;
   border: 2px solid #c8a97e;
   border-radius: 10px;
-  margin: 10px 4px;
+  margin: 15px 5px;
   overflow: hidden;
 }
 
@@ -809,7 +809,7 @@ h2{
   }
 
   .bg-img {
-    height: 120vh;
+    height: 113vh;
   }
 
   .sales {
