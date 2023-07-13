@@ -260,13 +260,34 @@
 }
 
 .discount .btnOrder {
-  width: 110px;
-  height: 38px;
+  width: 15rem;
+  /* height: 38px; */
+  padding: 1rem .7rem;
+  text-align: center;
+  letter-spacing: .1rem;
   background-color: #ff1f69;
   border: none;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
+}
+
+.discount .btnOrder i{
+  margin-left: .5rem;
+  animation: animate .5s ease infinite;
+  transition: .5s ease;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(-5px);
+  }
+  100%
+  {
+    transform: translateX(5px);
+  }
 }
 
 .discount a{
@@ -576,14 +597,23 @@ img {
 }
 
 .row #btnOrder {
-  width: 110px;
-  height: 38px;
+  width: 10rem;
+  padding: 1rem .7rem;
+  text-align: center;
+  letter-spacing: .1rem;
   background-color: #ff1f69;
   border: none;
   border-radius: 10px;
-  color: white;
-  margin-left: 5px;
+  font-weight: 600;
   cursor: pointer;
+  color: #fff;
+}
+
+
+.row #btnOrder i{
+  margin-left: .5rem;
+  animation: animate .5s ease infinite;
+  transition: .5s ease;
 }
 
 
