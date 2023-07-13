@@ -251,6 +251,13 @@
   text-shadow: 1px 1px 1px black;
   font-weight: bold;
 }
+.discount h4 {
+  font-size: 30px;
+  color: #FE0909;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 .discount .btnOrder {
   width: 110px;
@@ -258,6 +265,7 @@
   background-color: #ff1f69;
   border: none;
   border-radius: 10px;
+  font-weight: bold;
   cursor: pointer;
 }
 
