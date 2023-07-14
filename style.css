@@ -6,6 +6,7 @@
   box-sizing: border-box;
   outline: 0;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 /* scrolling css */
@@ -169,6 +170,15 @@
 }
 
 /* .discount section start */
+
+#sales h1 {
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  margin-top: 4vh;
+  margin-bottom: 13vh;
+}
+
 .photo-Album {
   display: flex;
   justify-content: center;
@@ -227,7 +237,7 @@
   background-size: cover;
   background-attachment: fixed;
   height: 65vh;
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 
 .sale {
@@ -865,7 +875,6 @@ h2{
   }
 }
 
-
 /* ----------------START----------------------------------  */
 /* -------------------------------------------------- */
 /*------------- scroll buttom to top -------------- */
@@ -876,39 +885,7 @@ h2{
   right: 32px;
   width: 40px;
   height: 40px;
-  background: #fff url("images/picture.png");
-  border-radius: 50%;
-  background-size: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  z-index: 10000;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-
-}
-
-
-.scrollTop.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-/*------------- scroll buttom to top -------------- */
-/* ----------------END----------------------------------  */
-/* -------------------------------------------------- *//* ----------------START----------------------------------  */
-/* -------------------------------------------------- */
-/*------------- scroll buttom to top -------------- */
-
-.scrollTop {
-  position: fixed;
-  bottom: 40px;
-  right: 32px;
-  width: 40px;
-  height: 40px;
-  background: #fff url("images/picture.png");
-
+  background: #fff url("images/up-arrow.png");
   border-radius: 50%;
   background-size: 40px;
   background-position: center;
@@ -930,7 +907,6 @@ h2{
 /*------------- scroll buttom to top -------------- */
 /* ----------------END----------------------------------  */
 /* -------------------------------------------------- */
-
 
 /* ------------------------------------------------------------------- */
 /* ------------------------loading css start-------------------------- */
