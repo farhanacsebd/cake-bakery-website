@@ -26,6 +26,7 @@
   background: rgb(0, 123, 255, 0.3);
 }
 
+/* what's app section start */
 
 .whatsApp {
   top: 80%;
@@ -35,8 +36,7 @@
   padding: 15px;
   border-radius: 5px;
   z-index: 9999;
-  /* width: 30px;
-  height: 30px; */
+  cursor: pointer;
 }
 
 
@@ -52,6 +52,9 @@
 .whatsApp:hover a {
   color: white;
 }
+
+/* what's app section end */
+
 
 /* navbar section start */
 .content {
@@ -135,6 +138,7 @@
 }
 
 .bg-img svg {
+  width: 100vw;
   position: absolute;
   bottom: -24%;
   z-index: 999;
@@ -181,7 +185,7 @@
   font-size: 24px;
   font-family: cursive;
   text-align: center;
-  margin-bottom: 5vh;
+  /* margin-bottom: 5vh; */
 }
 
 
