@@ -133,12 +133,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
-  width: 100vw;
+  width: 100%;
   opacity: 0.65;
 }
 
 .bg-img svg {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   bottom: -24%;
   z-index: 999;
